@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+
+        <h1>tabla avanzada</h1>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                </tr>
+            
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>miguel</td>
+                    <td>baez</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>alejandro</td>
+                    <td>gonzalez</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>rosa</td>
+                    <td>mela</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>maria</td>
+                    <td>grullon</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>ana</td>
+                    <td>bolivar</td>
+                    <td>29</td>
+                </tr>
+                <tr>
+                    <td>francisco</td>
+                    <td>muncion</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>jose</td>
+                    <td>tavarez</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>joselin</td>
+                    <td>suarez</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>alex</td>
+                    <td>gonzales</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>epifanio</td>
+                    <td>tiburcio</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+<h1>formulario</h1>
+<form>
+
+    <label for="Nombre"></label>
+    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+    <label for="Apellido"></label>
+    <input type="text" name="Apellido" id="Apellido" placeholder="Apellido">
+
+    <label for="edad">Edad:</label>
+    <input type="number" name="edad" id="edad" placeholder="Introduce tu edad">
+
+    <input type="checkbox" name="sexo" id="hombre">
+    <label for="hombre"></label>
+    <input type="checkbox" name="sexo" id="mujer">
+    <label for="mujer"></label>
+
+    <select id="sexo">
+        <option value="hombre"> hombre</option> 
+        <option value="mujer"> mujer</option> 
+
+    </select>
+    <br>
+    <label for="pais">País:</label>
+    <input type="text" name="pais" id="pais" placeholder="Introduce tu país">
+    <br>
+    <label for="tipo_evento">¿Qué tipo de eventos prefieres?</label>
+    <select name="tipo_evento[]" id="tipo_evento" multiple>
+        <option value="conciertos">Conciertos</option>
+        <option value="festivales">Festivales</option>
+        <option value="conferencias">Conferencias</option>
+        <option value="exposiciones">Exposiciones</option>
+        <option value="otros">Otros</option>
+    </select>
+    </br>
+    </br>
+    <br>
+    <label for="frecuencia_eventos">¿Con qué frecuencia asistes a eventos?</label>
+    <select name="frecuencia_eventos" id="frecuencia_eventos">
+        <option value="nunca">Nunca</option>
+        <option value="anual">Una vez al año</option>
+        <option value="varias_veces">Varias veces al año</option>
+        <option value="mensual">Una vez al mes</option>
+        <option value="frecuente">Más de una vez al mes</option>
+    </select>
+    </br>
+    <br>
+    <label for="red_social">¿Cuál es tu red social favorita para enterarte de eventos?</label>
+    <select name="red_social" id="red_social">
+        <option value="facebook">Facebook</option>
+        <option value="instagram">Instagram</option>
+        <option value="twitter">Twitter</option>
+        <option value="tiktok">TikTok</option>
+        <option value="otra">Otra</option>
+    </select>
+    </br>
+    <br>
+    <label for="dias_asistir">¿Qué días prefieres asistir a eventos?</label>
+    <select name="dias_asistir[]" id="dias_asistir" multiple>
+        <option value="lunes">Lunes</option>
+        <option value="martes">Martes</option>
+        <option value="miércoles">Miércoles</option>
+        <option value="jueves">Jueves</option>
+        <option value="viernes">Viernes</option>
+        <option value="sábado">Sábado</option>
+        <option value="domingo">Domingo</option>
+    </select>
+    </br>
+    <br>
+    <label for="presupuesto">¿Cuál es tu presupuesto aproximado para asistir a un evento?</label>
+    <select name="presupuesto" id="presupuesto">
+        <option value="menos_20">Menos de $20</option>
+        <option value="20_50">$20 - $50</option>
+        <option value="50_100">$50 - $100</option>
+        <option value="mas_100">Más de $100</option>
+    </select>
+    </br>
+    <br>
+    <label for="preferencia_lugar">¿Prefieres eventos en interiores o al aire libre?</label>
+    <select name="preferencia_lugar" id="preferencia_lugar">
+        <option value="interiores">Interiores</option>
+        <option value="aire_libre">Al aire libre</option>
+        <option value="ambos">Ambos</option>
+    </select>
+    </br>
+
+    <input type="submit" value="enviar">
+    
+</form>
+    </section>
+</body>
+</html>
